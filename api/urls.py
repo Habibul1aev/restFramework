@@ -1,6 +1,5 @@
-from django.contrib import admin
 from django.urls import path
-from framework import views
+from . import views
 
 urlpatterns = [
     path('products/', views.list_product, name='list_product'),

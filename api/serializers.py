@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Tags, Category, Product
+from framework.models import Tags, Category, Product
 
 class ProductSerializer(ModelSerializer):
     class Meta:
